@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #21124D;
+}
+header{
+    width: 100%;
+    height: 11vh;
+    background-color: #804CD6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.clouds{
+    height: 80%;
+    width: 25%;
+}
+.logo{
+    width: 30%;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+}
+.login{
+    width: 30%;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding-right: 50px ;
+}
+.name{
+    height: 40%;
+    width: 55%;
+}
+.log{
+    margin: 10px;
+}
+h2{
+    color: white;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+nav{
+    height: 8vh;
+    width: 90%;
+    background-color: #4C69D0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dropbtn {
+    background-color: #4C69D0;
+    color: white;
+    padding: 16px;
+    font-size: x-large;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    border: none;
+  }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4C69D0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #dddddd00;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #4C69D0;} 
+p{
+    color: white;
+    font-size:x-large;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+
+}
+a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:active{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+    color: #ffffff;
+}
+main{
+    width: 90%;
+    height: auto;
+    border: dashed 7px #6040A4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.film{
+    height: 40vh;
+    width: 38%;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    background: linear-gradient(180deg,#7f57d4,  #9D32C3 );
+    display: flex;
+    border-radius: 20px;
+}
+.photo{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    border-radius: 20px;
+}
+.filmname{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+.poster{
+    display: flex;
+    align-self: center;
+    height: 105%;
+    width: 90%;
+    border-radius: 20px;
+}
+h3{
+    color: white;
+    font-size: xx-large;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+
+}
+.time{
+    font-size:medium
+}
+.actions{
+    background-color: #4C69D0;
+    margin: 20px;
+    height: 36vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.cont1{
+    display: flex;
+    min-width: 100%;
+    min-height: 250px;
+    overflow-x: scroll;
+    gap: 20px;
+}
+.banner{
+    height: 30vh;
+    min-width: 37%;
+    background-color: #fff;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: #804CD6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info{
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 30px;
+}
+.info1{
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.section{
+    width: 40%;
+    height: 140vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aktsia{
+    height: 100%;
+    width: 100%;
+}
+.footer-text{
+    font-size: large;
+}
+iframe{
+    margin-right: 30px;
+}
